@@ -1,4 +1,4 @@
-# Meat - Angular App Starter
+# Meat - Angular App Starter [![Build Status](https://travis-ci.com/fabianopimentel/meat-app.svg?branch=master)](https://travis-ci.com/fabianopimentel/meat-app)
 
 ## 1. Passos para começar
 
