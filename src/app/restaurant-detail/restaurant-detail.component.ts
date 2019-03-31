@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router'
-import { RestaurantsService } from 'app/restaurants/restaurants.services';
+import { RestaurantsService } from 'app/restaurants/restaurants.service';
 import { Restaurant } from 'app/restaurants/restaurant/restaurant.model';
 
 @Component({
@@ -10,7 +10,7 @@ import { Restaurant } from 'app/restaurants/restaurant/restaurant.model';
 export class RestaurantDetailComponent implements OnInit {
 
   restaurant: Restaurant
-  
+
   constructor(private restaurantService: RestaurantsService,
               private route: ActivatedRoute) { }
 
